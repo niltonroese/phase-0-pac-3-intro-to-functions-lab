@@ -14,15 +14,15 @@ function logWhisper(string) {
     console.log(string.toLowerCase());
 }
 
-function sayHiToHeadphonedRoommate(string) { 
-    let cantAnswer = "I can't hear you!";
-    let yesAnswer = "YES INDEED!";
-    let loveAnswer = "I would love to!";
-    if (string.toLowerCase(string) === string) {
+function sayHiToHeadphonedRoommate(word) { 
+    const cantAnswer = "I can't hear you!";
+    const yesAnswer = "YES INDEED!";
+    const loveAnswer = "I would love to!";
+    if (word.toLowerCase() === word) {
         return cantAnswer;
-    } else if (string.toUpperCase(string) === string) {
+    } else if (word.toUpperCase() === word) {
         return yesAnswer;
-    } else if ("Let's have dinner together!" === string) {
+    } else if ("Let's have dinner together!" === word) {
         return loveAnswer;
     }
 }
